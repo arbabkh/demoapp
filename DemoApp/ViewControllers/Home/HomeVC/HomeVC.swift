@@ -34,7 +34,7 @@ class HomeVC: UIViewController {
 	}
 	
 	func gotoHomeDetail() {
-		let vc = self.storyboard?.instantiateViewController(withIdentifier: "HomeDetailVC") as! HomeDetailVC
+		let vc = self.storyboard?.instantiateViewController(withIdentifier: "MyTeamVC") as! MyTeamVC
 		vc.team = mHome?.teamA
 		navigationController?.pushViewController(vc, animated: true)
 	}

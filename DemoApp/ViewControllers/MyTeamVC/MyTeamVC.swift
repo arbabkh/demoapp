@@ -1,5 +1,5 @@
 //
-//  HomeDetailVC.swift
+//  MyTeamVC.swift
 //  DemoApp
 //
 //  Created by Arbab Ahmed Khan on 16/04/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeDetailVC: UIViewController {
+class MyTeamVC: UIViewController {
 	
 	@IBOutlet weak var tableView: UITableView!
 	var team: CMTeam?
@@ -31,7 +31,7 @@ class HomeDetailVC: UIViewController {
 }
 
 // MARK: TableView Datasource and Delegates
-extension HomeDetailVC: UITableViewDataSource {
+extension MyTeamVC: UITableViewDataSource {
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 		return 1
 	}
@@ -50,7 +50,7 @@ extension HomeDetailVC: UITableViewDataSource {
 	}
 }
 
-extension HomeDetailVC: UITableViewDelegate {
+extension MyTeamVC: UITableViewDelegate {
 	
 	func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 		if indexPath.section == 1 {

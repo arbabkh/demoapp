@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4208440026290A4A006DD308 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = 420843FF26290A4A006DD308 /* home.json */; };
-		4208440526291D0A006DD308 /* HomeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4208440426291D0A006DD308 /* HomeDetailVC.swift */; };
+		4208440526291D0A006DD308 /* MyTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4208440426291D0A006DD308 /* MyTeamVC.swift */; };
 		4208442526292585006DD308 /* PlayersBoardTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4208442326292585006DD308 /* PlayersBoardTC.swift */; };
 		4208442626292585006DD308 /* PlayersBoardTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4208442426292585006DD308 /* PlayersBoardTC.xib */; };
 		4208442C26292596006DD308 /* PlayerScoreTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4208442A26292596006DD308 /* PlayerScoreTC.swift */; };
@@ -57,7 +57,7 @@
 
 /* Begin PBXFileReference section */
 		420843FF26290A4A006DD308 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
-		4208440426291D0A006DD308 /* HomeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailVC.swift; sourceTree = "<group>"; };
+		4208440426291D0A006DD308 /* MyTeamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamVC.swift; sourceTree = "<group>"; };
 		4208442326292585006DD308 /* PlayersBoardTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersBoardTC.swift; sourceTree = "<group>"; };
 		4208442426292585006DD308 /* PlayersBoardTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayersBoardTC.xib; sourceTree = "<group>"; };
 		4208442A26292596006DD308 /* PlayerScoreTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScoreTC.swift; sourceTree = "<group>"; };
@@ -118,13 +118,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4208440926291D0E006DD308 /* HomeDetailVC */ = {
+		4208440926291D0E006DD308 /* MyTeamVC */ = {
 			isa = PBXGroup;
 			children = (
-				4208440426291D0A006DD308 /* HomeDetailVC.swift */,
+				4208440426291D0A006DD308 /* MyTeamVC.swift */,
 				42D7247F2629AC7A00C0C67E /* TableCells */,
 			);
-			path = HomeDetailVC;
+			path = MyTeamVC;
 			sourceTree = "<group>";
 		};
 		420844142629253F006DD308 /* PlayersBoardTC */ = {
@@ -280,7 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				42A5B1512628A88A006F3645 /* Home */,
-				4208440926291D0E006DD308 /* HomeDetailVC */,
+				4208440926291D0E006DD308 /* MyTeamVC */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -455,7 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4208440526291D0A006DD308 /* HomeDetailVC.swift in Sources */,
+				4208440526291D0A006DD308 /* MyTeamVC.swift in Sources */,
 				42084449262935B2006DD308 /* PlayerScoreHV.swift in Sources */,
 				4208443726292700006DD308 /* SquadTC.swift in Sources */,
 				42A5B1842628C12C006F3645 /* CMTeam.swift in Sources */,

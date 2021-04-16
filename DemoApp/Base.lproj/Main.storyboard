@@ -301,10 +301,10 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="88.392857142857139"/>
         </scene>
-        <!--Home DetailVC-->
+        <!--My TeamVC-->
         <scene sceneID="lmn-uw-wWg">
             <objects>
-                <viewController storyboardIdentifier="HomeDetailVC" id="6fS-rE-29c" customClass="HomeDetailVC" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyTeamVC" id="6fS-rE-29c" customClass="MyTeamVC" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="duf-r5-vpU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
