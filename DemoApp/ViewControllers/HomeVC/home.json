@@ -1,0 +1,86 @@
+{
+	"teamA": {
+		"logo": "logoTeamA",
+		"sponsorLogo": "teamASponsor",
+		"teamName": "Country Rugby",
+		"matchDateTime": "1624122000",
+		"vsTeamName": "Indian Tigers(A)",
+		"playerList": [
+			{
+				"profilePic": "",
+				"name": "S Kolisi",
+				"points": "7",
+				"win": "6",
+				"loss": "0",
+				"pd": "1",
+				"plus": "+6",
+				"tb": "0",
+				"lb": "0",
+				"pts": "24"
+			},
+			{
+				"profilePic": "",
+				"name": "E Etzebeth",
+				"points": "7",
+				"win": "6",
+				"loss": "0",
+				"pd": "1",
+				"plus": "+6",
+				"tb": "0",
+				"lb": "0",
+				"pts": "24"
+			},
+			{
+				"profilePic": "",
+				"name": "F De Klerk",
+				"points": "7",
+				"win": "6",
+				"loss": "0",
+				"pd": "1",
+				"plus": "+6",
+				"tb": "0",
+				"lb": "0",
+				"pts": "24"
+			},
+			{
+				"profilePic": "",
+				"name": "T Mtawaria",
+				"points": "7",
+				"win": "6",
+				"loss": "0",
+				"pd": "1",
+				"plus": "+6",
+				"tb": "0",
+				"lb": "0",
+				"pts": "24"
+			}
+			
+		]
+	},
+	"teamB": {
+		"logo": "logoTeamB",
+		"sponsorLogo": "teamBSponsor",
+		"teamName": "England",
+		"matchDateTime": "1624730400",
+		"vsTeamName": "Lmangadnam(H)"
+	},
+	"itemList": [
+		{
+			"title": "DAILY",
+			"icon": "item1"
+		},
+		{
+			"title": "MATCHES",
+			"icon": "item2"
+		},
+		{
+			"title": "MANAGER",
+			"icon": "item3"
+		},
+		{
+			"title": "STATS",
+			"icon": "item4"
+		}
+	]
+
+}
