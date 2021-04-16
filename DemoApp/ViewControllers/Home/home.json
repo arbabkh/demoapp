@@ -62,7 +62,8 @@
 		"sponsorLogo": "teamBSponsor",
 		"teamName": "England",
 		"matchDateTime": "1624730400",
-		"vsTeamName": "Lmangadnam(H)"
+		"vsTeamName": "Lmangadnam(H)",
+		"playerList": []
 	},
 	"itemList": [
 		{

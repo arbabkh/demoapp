@@ -122,8 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				4208440426291D0A006DD308 /* HomeDetailVC.swift */,
-				420844142629253F006DD308 /* PlayersBoardTC */,
-				4208443C26292705006DD308 /* SquadTC */,
+				42D7247F2629AC7A00C0C67E /* TableCells */,
 			);
 			path = HomeDetailVC;
 			sourceTree = "<group>";
@@ -220,16 +219,15 @@
 			path = DemoAppUITests;
 			sourceTree = "<group>";
 		};
-		42A5B1512628A88A006F3645 /* HomeVC */ = {
+		42A5B1512628A88A006F3645 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				420843FF26290A4A006DD308 /* home.json */,
-				42A5B1522628A88A006F3645 /* HomeVC.swift */,
-				42A5B1622628A994006F3645 /* HomeCC */,
-				42A5B16B2628AE58006F3645 /* HomeHeaderView */,
-				42A5B1A52628CBFC006F3645 /* HomePresenter.swift */,
+				42D724782629AC5E00C0C67E /* HomeVC */,
+				42D724742629AC4000C0C67E /* CollectionCells */,
+				42D724702629ABFC00C0C67E /* HomePresenter */,
 			);
-			path = HomeVC;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		42A5B1532628A88A006F3645 /* Resources */ = {
@@ -281,10 +279,44 @@
 		42D724662629A67700C0C67E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				42A5B1512628A88A006F3645 /* HomeVC */,
+				42A5B1512628A88A006F3645 /* Home */,
 				4208440926291D0E006DD308 /* HomeDetailVC */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		42D724702629ABFC00C0C67E /* HomePresenter */ = {
+			isa = PBXGroup;
+			children = (
+				42A5B1A52628CBFC006F3645 /* HomePresenter.swift */,
+			);
+			path = HomePresenter;
+			sourceTree = "<group>";
+		};
+		42D724742629AC4000C0C67E /* CollectionCells */ = {
+			isa = PBXGroup;
+			children = (
+				42A5B1622628A994006F3645 /* HomeCC */,
+				42A5B16B2628AE58006F3645 /* HomeHeaderView */,
+			);
+			path = CollectionCells;
+			sourceTree = "<group>";
+		};
+		42D724782629AC5E00C0C67E /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				42A5B1522628A88A006F3645 /* HomeVC.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		42D7247F2629AC7A00C0C67E /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				420844142629253F006DD308 /* PlayersBoardTC */,
+				4208443C26292705006DD308 /* SquadTC */,
+			);
+			path = TableCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

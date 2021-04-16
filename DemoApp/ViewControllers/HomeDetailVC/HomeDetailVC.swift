@@ -8,6 +8,7 @@
 import UIKit
 
 class HomeDetailVC: UIViewController {
+	
 	@IBOutlet weak var tableView: UITableView!
 	var team: CMTeam?
 	
